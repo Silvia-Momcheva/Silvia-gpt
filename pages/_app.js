@@ -1,5 +1,5 @@
-import Link from "next/link"
-import "../styles/global.css"
+import Link from "next/link";
+import "../styles/global.css";
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -7,10 +7,10 @@ export default function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <div className="footer">
         <p>
-          <Link href="/">Text</Link>
-          <Link href="/art">Art</Link>
+          <Link href="/">Въпроси</Link>
+          <Link href="/art">Арт</Link>
         </p>
       </div>
     </>
-  )
+  );
 }
